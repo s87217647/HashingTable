@@ -1,0 +1,165 @@
+----------------------------------------------------------------------
+final String TESTFILE01 = "resources/findIDs.txt";	// Example test file for hashing based on IDs
+final String TESTFILE02 = "resources/findGenres.txt"; // Example test file for hashing based on genres names
+----------------------------------------------------------------------
+C:\Users\Administrator\.jdks\openjdk-15\bin\java.exe "-javaagent:G:\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=7528:G:\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\Google Drive\2020 Fall\CS 1C\Source Code\A07\out\production\s87217647-cs1c-project07;F:\Google Drive\2020 Fall\CS 1C\Source Code\A07\lib\json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/findIDs.txt
+
+Finding song id: 2
+Song id 2 found in tableOfSongIDs.
+
+Finding song id: 3
+Song id 3 found in tableOfSongIDs.
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs.
+
+Finding song id: 99
+Song id 99 found in tableOfSongIDs.
+
+Finding song id: 99999
+Song id 99999 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/findGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres.
+
+Finding genre: FOOTHILL
+Genre "FOOTHILL" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+
+
+----------------------------------------------------------------------
+        final String TESTFILE01 = "resources/myFindIDs.txt";    // My test file for hashing based on IDs
+        final String TESTFILE02 = "resources/myFindGenres.txt"; // My test file for hashing based on genres names
+----------------------------------------------------------------------
+C:\Users\Administrator\.jdks\openjdk-15\bin\java.exe "-javaagent:G:\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=7588:G:\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\Google Drive\2020 Fall\CS 1C\Source Code\A07\out\production\s87217647-cs1c-project07;F:\Google Drive\2020 Fall\CS 1C\Source Code\A07\lib\json-simple-1.1.1.jar" hashTables.MyTunes
+Total number of songs read 59600
+Test file for id table: resources/myFindIDs.txt
+
+Finding song id: 4
+Song id 4 found in tableOfSongIDs.
+
+Finding song id: 7
+Song id 7 found in tableOfSongIDs.
+
+Finding song id: 8
+Song id 8 found in tableOfSongIDs.
+
+Finding song id: 45
+Song id 45 found in tableOfSongIDs.
+
+Finding song id: 48
+Song id 48 found in tableOfSongIDs.
+
+Finding song id: 56
+Song id 56 found in tableOfSongIDs.
+
+Finding song id: 365
+Song id 365 found in tableOfSongIDs.
+
+Finding song id: 995
+Song id 995 found in tableOfSongIDs.
+
+Finding song id: 4415
+Song id 4415 found in tableOfSongIDs.
+
+Finding song id: 9995499
+Song id 9995499 NOT found in tableOfSongIDs.
+Done with testing table of ids.
+
+Test file for genre table: resources/myFindGenres.txt
+
+Number of store songs in each genre:
+classic pop and rock 	  23895
+                punk 	   3200
+                folk 	  13192
+                 pop 	   1617
+dance and electronica 	   4935
+               metal 	   2103
+      jazz and blues 	   4334
+           classical 	   1874
+             hip-hop 	    434
+     soul and reggae 	   4016
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: classic pop and rock
+Genre "classic pop and rock" found in tableOfGenres.
+
+Finding genre: FOOTHILL
+Genre "FOOTHILL" NOT found in tableOfGenres.
+
+Finding genre: Random Genre
+Genre "Random Genre" NOT found in tableOfGenres.
+
+Finding genre: punk
+Genre "punk" found in tableOfGenres.
+
+Finding genre: folk
+Genre "folk" found in tableOfGenres.
+
+Finding genre: pop
+Genre "pop" found in tableOfGenres.
+
+Finding genre: jazz and blues
+Genre "jazz and blues" found in tableOfGenres.
+
+Finding genre: bules and jazz
+Genre "bules and jazz" NOT found in tableOfGenres.
+
+Finding genre: hipoty-hop
+Genre "hipoty-hop" NOT found in tableOfGenres.
+Done with testing table of genres.
+
+
+Done with MyTunes.
+
+Process finished with exit code 0
+
+-----------------------------------------------------------------------
+Extra Credit
+-----------------------------------------------------------------------
+C:\Users\Administrator\.jdks\openjdk-15\bin\java.exe "-javaagent:G:\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=10447:G:\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "F:\Google Drive\2020 Fall\CS 1C\Source Code\A07\out\production\s87217647-cs1c-project07;F:\Google Drive\2020 Fall\CS 1C\Source Code\A07\lib\json-simple-1.1.1.jar" hashTables.ExtraCreditTesting
+Size: 10
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 2321 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 128 ns
+Size: 100
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 1862 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 100 ns
+Size: 1000
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 3342 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 111 ns
+Size: 10000
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 4875 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 127 ns
+Size: 100000
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 7101 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 132 ns
+Size: 1000000
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 9060 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 174 ns
+Size: 1000000
+Linear: 0 hrs : 0 mins : 0 sec : 0 ms : 12146 ns QP: 0 hrs : 0 mins : 0 sec : 0 ms : 247 ns
+
+Process finished with exit code 0
+
